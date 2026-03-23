@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **521 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
+A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **522 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
 
 ## Contents
 
@@ -214,7 +214,7 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 ## Code Generation & Automation
 
 Tools for generating code, automating development tasks, and creating project templates.
-
+- [LAP](https://github.com/Lap-Platform/LAP) - Compiles API specs into lean, token-efficient formats that prevent AI agent hallucinations. Supports OpenAPI, GraphQL, AsyncAPI, Protobuf & Postman. Ships with a registry of 1,500+ pre-compiled specs.
 - [gpt-engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Specify what you want it to build, the AI asks for clarification, and then builds it
 - [amplication](https://github.com/amplication/amplication) - The Only Production-Ready AI-Powered Backend Code Generation
 - [llamacoder](https://github.com/Nutlope/llamacoder) - An open source Claude Artifacts – generate small apps with one prompt
