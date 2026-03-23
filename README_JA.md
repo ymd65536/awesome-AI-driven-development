@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **517個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
+AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **518個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
 
 ## 目次
 
@@ -99,6 +99,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Codi](https://github.com/laynepenney/codi) - AIコーディングの相棒。Claude、OpenAI、ローカルモデルをサポートするハイブリッドアシスタント
 - [Termly CLI](https://github.com/termly-dev/termly-cli) - 任意のデバイスからAIコーディングアシスタントにアクセス。Claude Code、Aider、GitHub Copilot、その他のターミナルベースAIツールと連携
 - [Codex DMG -> Windows](https://github.com/aidanqm/Codex-Windows) - macOS版Codex DMGを抽出してWindows上でElectronアプリを実行するWindows専用ランナーを提供するリポジトリ
+- [Cortex Code](https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code) - SnowflakeのAIコーディングエージェントCLI。SQL、Python、データエンジニアリングワークフローをSnowflake接続機能とともに提供
 
 ## IDE拡張機能
 
