@@ -167,6 +167,7 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 
 - [Stoneforge](https://github.com/stoneforge-ai/stoneforge) - Open-source orchestration for AI coding agents. Run multiple agents in parallel with automatic dispatch, merge, and recovery
 - [Factory](https://github.com/Factory-AI/factory) - The agent-native development platform. Works across CLI, Web, Slack/Teams, Linear/Jira and Mobile.
+- [Factory Floor](https://github.com/alltuner/factoryfloor) - Native macOS workspace that orchestrates parallel Claude Code agents, each in its own git worktree with automatic dev server port detection. Built on libghostty for GPU-rendered terminals.
 - [autogen](https://github.com/microsoft/autogen) - A programming framework for agentic AI
 - [crewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating role-playing, autonomous AI agents
 - [MetaGPT](https://github.com/geekan/MetaGPT/) - The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming
