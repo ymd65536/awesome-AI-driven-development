@@ -210,6 +210,7 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 - [Slate V1](https://randomlabs.ai/) - A generalist software agent built for swarms.
 - [Blackbox Code](https://github.com/blackboxaicode/cli) - BLACKBOX CLI for running Multi-Agents locally and a Judge to select the best task implementation
 - [Parallel Code](https://github.com/johannesjo/parallel-code) - Desktop app for running multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees.
+- [cestDone](https://github.com/olkano/cestDone) - CLI orchestrator that splits AI coding into Director (planning/specs) and Coder (implementation) roles, with built-in scheduler for automated execution.
 
 ## Code Generation & Automation
 
