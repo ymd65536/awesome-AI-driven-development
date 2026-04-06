@@ -209,7 +209,7 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 - [Slate V1](https://randomlabs.ai/) - A generalist software agent built for swarms.
 - [Blackbox Code](https://github.com/blackboxaicode/cli) - BLACKBOX CLI for running Multi-Agents locally and a Judge to select the best task implementation
 
-- [ORCH](https://github.com/oxgeneral/ORCH) — CLI orchestrator for Claude Code, Codex, Cursor agent teams. State machine, auto-retry, inter-agent messaging, TUI dashboard. TypeScript, MIT.
+- [ORCH](https://github.com/oxgeneral/ORCH) - CLI orchestrator for Claude Code, Codex, Cursor agent teams. State machine, auto-retry, inter-agent messaging, TUI dashboard. TypeScript, MIT.
 ## Code Generation & Automation
 
 Tools for generating code, automating development tasks, and creating project templates.
