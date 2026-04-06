@@ -208,7 +208,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Slate V1](https://randomlabs.ai/) - スウォーム向けに構築された汎用ソフトウェアエージェント
 - [Blackbox Code](https://github.com/blackboxaicode/cli) - マルチエージェントをローカルで実行し、最適なタスク実装を選択するジャッジ機能を備えたBLACKBOX CLI
 
-- [ORCH](https://github.com/oxgeneral/ORCH) — Claude Code、Codex、Cursor エージェントチームのためのCLIオーケストレーター。ステートマシン、自動リトライ、エージェント間メッセージング、TUIダッシュボード。TypeScript、MIT。
+- [ORCH](https://github.com/oxgeneral/ORCH) - Claude Code、Codex、Cursor エージェントチームのためのCLIオーケストレーター。ステートマシン、自動リトライ、エージェント間メッセージング、TUIダッシュボード。TypeScript、MIT。
 ## コード生成 & 自動化
 
 コード生成、開発タスクの自動化、プロジェクトテンプレート作成のためのツール。
