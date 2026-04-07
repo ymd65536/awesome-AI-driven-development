@@ -94,6 +94,7 @@ AI coding assistants and agents that work directly in your terminal or command l
 - [VT Code](https://github.com/vinhnx/vtcode) - a Rust-based terminal coding agent with semantic code understanding powered by tree-sitter and ast-grep, and fully configurable for steering the Agent.
 - [Cliq - Effect-TS AI Assistant](https://github.com/kpritam/cliq/) - A functional, Effect-TS-based AI coding assistant CLI with multi-provider support.
 - [claude-sessions](https://github.com/kyupid/claude-sessions) - Monitor all running Claude Code sessions in your terminal.
+- [resume-cli](https://github.com/inevolin/resume-cli) - CLI for resuming AI coding sessions across Claude Code, Codex, and GitHub Copilot. Aggregates recent sessions in one place so you can pick one and continue in any of the three tools.
 - [Mistral Vibe](https://github.com/mistralai/mistral-vibe) - A command-line coding assistant powered by Mistral's models.
 - [Every CODE](https://github.com/just-every/code) - Push frontier AI to its limits. A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more. Orchestrate agents from OpenAI, Claude, Gemini or any provider.
 - [$4PocketCode](https://github.com/rajbreno/4PocketCode) - Run AI coding agents (OpenCode, Claude Code, Gemini CLI) in just $4 entirely from your phone.
