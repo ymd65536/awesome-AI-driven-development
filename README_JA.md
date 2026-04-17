@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **531個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
+AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **537個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
 
 ## 目次
 
@@ -48,6 +48,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [SpaceManager](https://github.com/NEWBIE0413/SpaceManager) - AIエージェント時代のターミナル中心IDE
 - [SquirlIDE](https://github.com/krishnak19a-del/SquirlIDE) - Tauri（Rust）をバックエンド、ReactJSをフロントエンドに使用した軽量クロスプラットフォームコードエディタ。コードアシスタンスとテキスト生成のためのGemini API経由のLLM統合を搭載
 - [Frontman](https://github.com/frontman-ai/frontman) - ブラウザ上で動作するオープンソースAIコーディングエージェント。ミドルウェアとして開発サーバーに接続し、ライブDOM、コンポーネントツリー、CSS、ルート、サーバーログを認識。任意の要素をクリックして変更を自然言語で記述すると、ホットリロード付きでソースコードを編集
+- [Nimbalyst](https://nimbalyst.com) - CodexとClaude Codeで構築するためのビジュアルワークスペース。セッション・タスク管理、マークダウン・モックアップ・CSV・Excalidraw・Mermaid・コードのビジュアル編集
 
 ## ターミナル & CLIエージェント
 
@@ -168,6 +169,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 
 開発ワークフローで複数のAIエージェントを調整・管理するフレームワークとツール。
 
+- [Stoneforge](https://github.com/stoneforge-ai/stoneforge) - AIコーディングエージェント向けオープンソースオーケストレーション。複数エージェントの並列実行、自動ディスパッチ、マージ、リカバリ
 - [Factory](https://github.com/Factory-AI/factory) - エージェントネイティブ開発プラットフォーム。CLI、Web、Slack/Teams、Linear/Jira、モバイルで動作
 - [Factory Floor](https://github.com/alltuner/factoryfloor) - 並列Claude Codeエージェントを調整するネイティブmacOSワークスペース。各エージェントが独自のgit worktreeで動作し、開発サーバーポートを自動検出。libghosttyによるGPUレンダリングターミナル搭載
 - [autogen](https://github.com/microsoft/autogen) - エージェント型AI向けプログラミングフレームワーク
@@ -212,6 +214,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Switchboard](https://github.com/TentacleOpera/switchboard) - OpenCodeなどのAPIフレームワークに代わるサブスクリプションベースの選択肢。AIサブスクリプション、ローカルLLM、CLIエージェントをAPIキー不要で単一チームに統合
 - [Slate V1](https://randomlabs.ai/) - スウォーム向けに構築された汎用ソフトウェアエージェント
 - [Blackbox Code](https://github.com/blackboxaicode/cli) - マルチエージェントをローカルで実行し、最適なタスク実装を選択するジャッジ機能を備えたBLACKBOX CLI
+- [Parallel Code](https://github.com/johannesjo/parallel-code) - 複数のAIコーディングエージェント（Claude Code、Codex CLI、Gemini CLI）を独立したgit worktreeで同時実行するデスクトップアプリ
 - [cestDone](https://github.com/olkano/cestDone) - AIコーディングをDirector（計画・仕様）とCoder（実装）の役割に分割するCLIオーケストレーター。自動実行のためのスケジューラー内蔵
 - [Forge](https://github.com/LucasDuys/forge) - Claude Code向け自律的仕様駆動開発ループ。3コマンドパイプライン（brainstorm、plan、execute）でコンテキスト維持、バックプロパゲーション、Claude-on-Claudeコードレビュー機能搭載
 - [ORCH](https://github.com/oxgeneral/ORCH) - Claude Code、Codex、Cursor エージェントチームのためのCLIオーケストレーター。ステートマシン、自動リトライ、エージェント間メッセージング、TUIダッシュボード。TypeScript、MIT。
@@ -221,6 +224,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 
 コード生成、開発タスクの自動化、プロジェクトテンプレート作成のためのツール。
 
+- [LAP](https://github.com/Lap-Platform/LAP) - API仕様をリーンでトークン効率の良い形式にコンパイルし、AIエージェントのハルシネーションを防止。OpenAPI、GraphQL、AsyncAPI、Protobuf、Postman対応。1,500以上のプリコンパイル済み仕様レジストリを同梱
 - [gpt-engineer](https://github.com/gpt-engineer-org/gpt-engineer) - 作りたいものを指定すると、AIが明確化を求め、その後構築
 - [amplication](https://github.com/amplication/amplication) - 唯一のプロダクション対応AI搭載バックエンドコード生成
 - [llamacoder](https://github.com/Nutlope/llamacoder) - オープンソースのClaude Artifacts – 一つのプロンプトで小さなアプリを生成
@@ -490,6 +494,7 @@ AI支援開発ワークフローを管理するツール、フレームワーク
 - [AI Context Generator](https://github.com/temrb/generate-project-context) - プロジェクトのソースファイルを1つのコンテキストファイルにまとめ、Large Language Models（LLMs）での利用に適した形にパッケージングする、小規模かつ意図の明確なCLIツール
 - [AI Agent Context Optimizer 🤖](https://github.com/guyaluk/contextor) - コードベースを自動で解析し、AIコーディングアシスタント向けに最適化されたコンテキストドキュメント（例：CLAUDE.md、AGENTS.mdなど）の推奨事項を生成するGitHub Action
 - [ccusage](https://github.com/ryoppippi/ccusage) - ローカルJSONLファイルからClaude Code/Codex CLI使用状況を分析するCLIツール
+- [BurnRate](https://getburnrate.io) - ローカルファーストのAIコーディングコスト分析。Claude Code、Cursor、Codex、Copilot、Windsurf、Cline、Aiderを追跡。コスト内訳、23の最適化ルール、レート制限監視、プロバイダー比較、PDFレポート
 - [Sourcebot](https://github.com/sourcebot-dev/sourcebot) - コードベースを理解するためのセルフホスト型ツール
 - [codemap 🗺️](https://github.com/JordanCoin/codemap) - AI向けのプロジェクトブレイン。トークンを消費せずにLLMに即座にアーキテクチャコンテキストを提供
 - [GitNexus V2](https://github.com/abhigyanpatwari/GitNexus) - ブラウザで完全に動作するクライアントサイドのナレッジグラフ作成ツール。GitHubリポジトリやZIPファイルをドロップして、Graph RAGエージェント内蔵のインタラクティブなナレッジグラフを取得。コード探索に最適
@@ -563,6 +568,7 @@ AI駆動開発を学ぶためのチュートリアル、ベストプラクティ
 - [Cursor AI Tips & Tricks](https://github.com/murataslan1/cursor-ai-tips) - Cursor AI IDEのtips、tricks、ベストプラクティス - キーボードショートカット、Composerモード、.cursorrules例、Redditコミュニティの知恵
 - [Claude Code Mastery](https://github.com/TheDecipherist/claude-code-mastery) - Claude Codeを最大限活用するための完全ガイド：グローバルCLAUDE.md、MCPサーバー、コマンド、フック、スキル、そして単一目的チャットが重要な理由
 - [OwnYourCode](https://github.com/DanielPodolsky/ownyourcode) - ジュニアエンジニア向けAIメンター開発。Claudeはコーダーではなくメンターとして機能し、質問で導き、6つのゲートでレビューしつつ、すべてのコードはあなた自身が書く。依存を減らし、オーナーシップを高める
+- [awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) - 245以上のVibeコーディングツール、プラットフォーム、リソースのキュレーションリスト。カテゴリ別に整理され、料金、ユースケース、チュートリアル、コミュニティ情報を含む
 
 ## フレームワーク & ライブラリ
 
