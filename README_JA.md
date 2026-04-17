@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **530個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
+AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **531個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
 
 ## 目次
 
@@ -215,6 +215,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [cestDone](https://github.com/olkano/cestDone) - AIコーディングをDirector（計画・仕様）とCoder（実装）の役割に分割するCLIオーケストレーター。自動実行のためのスケジューラー内蔵
 - [Forge](https://github.com/LucasDuys/forge) - Claude Code向け自律的仕様駆動開発ループ。3コマンドパイプライン（brainstorm、plan、execute）でコンテキスト維持、バックプロパゲーション、Claude-on-Claudeコードレビュー機能搭載
 - [ORCH](https://github.com/oxgeneral/ORCH) - Claude Code、Codex、Cursor エージェントチームのためのCLIオーケストレーター。ステートマシン、自動リトライ、エージェント間メッセージング、TUIダッシュボード。TypeScript、MIT。
+- [Asynkor](https://github.com/asynkor/asynkor) - AIエージェントチームの協調レイヤー。ファイルリース、共有メモリ、マシン間同期。Claude Code、Cursor、Windsurf向けMCPサーバー
 
 ## コード生成 & 自動化
 
