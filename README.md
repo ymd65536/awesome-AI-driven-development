@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **523 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
+A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **535 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
 
 ## Contents
 
@@ -101,6 +101,7 @@ AI coding assistants and agents that work directly in your terminal or command l
 - [Codi](https://github.com/laynepenney/codi) - Your AI coding wingman - a hybrid assistant supporting Claude, OpenAI, and local models
 - [Termly CLI](https://github.com/termly-dev/termly-cli) - Access your AI coding assistants from any device. Works with Claude Code, Aider, GitHub Copilot, and any terminal-based AI tool.
 - [Codex DMG -> Windows](https://github.com/aidanqm/Codex-Windows) - This repository provides a Windows-only runner that extracts the macOS Codex DMG and runs the Electron app on Windows.
+- [Caliber](https://github.com/caliber-ai-org/ai-setup) - CLI that fingerprints projects and generates/syncs AI agent configs (CLAUDE.md, .cursor/rules/, AGENTS.md, skills). Scores config quality and keeps docs in sync. Supports Claude Code, Cursor, Copilot, Codex.
 - [Cortex Code](https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code) - Snowflake's AI coding agent CLI for SQL, Python, and data engineering workflows with built-in Snowflake connectivity
 
 ## IDE Extensions
@@ -162,8 +163,8 @@ Plugins and extensions for popular IDEs and text editors.
 - [Wingman](https://github.com/winstxnhdw/Wingman) - Your offline AI pair programmer for VSCode on Windows
 - [Co-Clone](https://github.com/Sarvesh-Kannan/Co-Clone) - a local AI coding assistant that mimics the functionality of GitHub Copilot. It provides intelligent code completions and context-aware implementations using a local LLM (deepseek-coder:6.7b) running via Ollama.
 - [eca](https://github.com/editor-code-assistant/eca) - AI pair programming capabilities agnostic of editor
-
 - [ORCH](https://github.com/oxgeneral/ORCH) — CLI orchestrator for Claude Code, Codex, Cursor agent teams. State machine, auto-retry, inter-agent messaging, TUI dashboard. TypeScript, MIT.
+
 ## Multi-Agent & Orchestration
 
 Frameworks and tools for orchestrating and managing multiple AI agents in development workflows.
@@ -215,8 +216,9 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 - [Blackbox Code](https://github.com/blackboxaicode/cli) - BLACKBOX CLI for running Multi-Agents locally and a Judge to select the best task implementation
 - [Parallel Code](https://github.com/johannesjo/parallel-code) - Desktop app for running multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees.
 - [cestDone](https://github.com/olkano/cestDone) - CLI orchestrator that splits AI coding into Director (planning/specs) and Coder (implementation) roles, with built-in scheduler for automated execution.
-
+- [Forge](https://github.com/LucasDuys/forge) - Autonomous spec-driven development loop for Claude Code. Three-command pipeline (brainstorm, plan, execute) with context survival, backpropagation, and Claude-on-Claude code review.
 - [ORCH](https://github.com/oxgeneral/ORCH) - CLI orchestrator for Claude Code, Codex, Cursor agent teams. State machine, auto-retry, inter-agent messaging, TUI dashboard. TypeScript, MIT.
+
 ## Code Generation & Automation
 
 Tools for generating code, automating development tasks, and creating project templates.
@@ -660,3 +662,4 @@ Reusable skill packages, collections, and tools for enhancing AI coding agents w
 - [setup-structure-index](https://github.com/shannonbay/setup-structure-index) - A Claude Code skill that sets up a two-tier codebase structure index for any project.
 - [pm-skills](https://github.com/product-on-purpose/pm-skills) - 24 plug-and-play product management agent skills with templates and workflow bundles, following the agentskills.io specification.
 - [Mysti](https://github.com/DeepMyst/Mysti) - Multi-agent AI coding assistant for VS Code with brainstorm mode | Claude Code, Codex, Gemini, Cline, GitHub Copilot |
+- [naming](https://github.com/glacierphonk/naming) - Metaphor-driven naming skill for products, SaaS, brands, and open source projects. Structured process that produces memorable, meaningful names.

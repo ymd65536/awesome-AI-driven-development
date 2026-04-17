@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **518個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
+AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **530個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
 
 ## 目次
 
@@ -93,12 +93,14 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [VT Code](https://github.com/vinhnx/vtcode) - tree-sitterとast-grepによるセマンティックコード理解を搭載し、エージェントの制御を完全に構成可能なRustベースのターミナルコーディングエージェント
 - [Cliq - Effect-TS AI Assistant](https://github.com/kpritam/cliq/) - 関数型のEffect-TSベースのAIコーディングアシスタントCLIで、マルチプロバイダーをサポート
 - [claude-sessions](https://github.com/kyupid/claude-sessions) - ターミナルで実行中のすべてのClaude Codeセッションを監視
+- [resume-cli](https://github.com/inevolin/resume-cli) - Claude Code、Codex、GitHub Copilot間でAIコーディングセッションを再開するCLI。最近のセッションを一覧表示し、3つのツールのいずれかで続行可能
 - [Mistral Vibe](https://github.com/mistralai/mistral-vibe) - Mistralのモデルを搭載したコマンドラインコーディングアシスタント
 - [Every CODE](https://github.com/just-every/code) - フロンティアAIの限界に挑戦。Codex CLIのフォークで、バリデーション、自動化、ブラウザ統合、マルチエージェント、テーマ機能などを追加。OpenAI、Claude、Geminiなど様々なプロバイダーのエージェントをオーケストレーション
 - [$4PocketCode](https://github.com/rajbreno/4PocketCode) - わずか4ドルでスマートフォンからAIコーディングエージェント（OpenCode、Claude Code、Gemini CLI）を実行
 - [Codi](https://github.com/laynepenney/codi) - AIコーディングの相棒。Claude、OpenAI、ローカルモデルをサポートするハイブリッドアシスタント
 - [Termly CLI](https://github.com/termly-dev/termly-cli) - 任意のデバイスからAIコーディングアシスタントにアクセス。Claude Code、Aider、GitHub Copilot、その他のターミナルベースAIツールと連携
 - [Codex DMG -> Windows](https://github.com/aidanqm/Codex-Windows) - macOS版Codex DMGを抽出してWindows上でElectronアプリを実行するWindows専用ランナーを提供するリポジトリ
+- [Caliber](https://github.com/caliber-ai-org/ai-setup) - プロジェクトをフィンガープリントし、AIエージェント設定（CLAUDE.md、.cursor/rules/、AGENTS.md、スキル）を生成・同期するCLI。設定品質をスコアリングし、ドキュメントの同期を維持。Claude Code、Cursor、Copilot、Codex対応
 - [Cortex Code](https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code) - SnowflakeのAIコーディングエージェントCLI。SQL、Python、データエンジニアリングワークフローをSnowflake接続機能とともに提供
 
 ## IDE拡張機能
@@ -160,13 +162,14 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Wingman](https://github.com/winstxnhdw/Wingman) - Windows上のVSCode向けオフラインAIペアプログラマー
 - [Co-Clone](https://github.com/Sarvesh-Kannan/Co-Clone) - GitHub Copilotの機能を模倣するローカルAIコーディングアシスタント。Ollama経由でローカルLLM（deepseek-coder:6.7b）を使用してインテリジェントなコード補完とコンテキスト認識実装を提供
 - [eca](https://github.com/editor-code-assistant/eca) - エディタに依存しないAIペアプログラミング機能
-
 - [ORCH](https://github.com/oxgeneral/ORCH) - Claude Code、Codex、Cursor エージェントチームのためのCLIオーケストレーター。ステートマシン、自動リトライ、エージェント間メッセージング、TUIダッシュボード。TypeScript、MIT。
+
 ## マルチエージェント & オーケストレーション
 
 開発ワークフローで複数のAIエージェントを調整・管理するフレームワークとツール。
 
 - [Factory](https://github.com/Factory-AI/factory) - エージェントネイティブ開発プラットフォーム。CLI、Web、Slack/Teams、Linear/Jira、モバイルで動作
+- [Factory Floor](https://github.com/alltuner/factoryfloor) - 並列Claude Codeエージェントを調整するネイティブmacOSワークスペース。各エージェントが独自のgit worktreeで動作し、開発サーバーポートを自動検出。libghosttyによるGPUレンダリングターミナル搭載
 - [autogen](https://github.com/microsoft/autogen) - エージェント型AI向けプログラミングフレームワーク
 - [crewAI](https://github.com/joaomdmoura/crewAI) - ロールプレイング型自律AIエージェントを調整するフレームワーク
 - [MetaGPT](https://github.com/geekan/MetaGPT/) - マルチエージェントフレームワーク：初のAIソフトウェア企業、自然言語プログラミングへ向けて
@@ -209,8 +212,10 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Switchboard](https://github.com/TentacleOpera/switchboard) - OpenCodeなどのAPIフレームワークに代わるサブスクリプションベースの選択肢。AIサブスクリプション、ローカルLLM、CLIエージェントをAPIキー不要で単一チームに統合
 - [Slate V1](https://randomlabs.ai/) - スウォーム向けに構築された汎用ソフトウェアエージェント
 - [Blackbox Code](https://github.com/blackboxaicode/cli) - マルチエージェントをローカルで実行し、最適なタスク実装を選択するジャッジ機能を備えたBLACKBOX CLI
-
+- [cestDone](https://github.com/olkano/cestDone) - AIコーディングをDirector（計画・仕様）とCoder（実装）の役割に分割するCLIオーケストレーター。自動実行のためのスケジューラー内蔵
+- [Forge](https://github.com/LucasDuys/forge) - Claude Code向け自律的仕様駆動開発ループ。3コマンドパイプライン（brainstorm、plan、execute）でコンテキスト維持、バックプロパゲーション、Claude-on-Claudeコードレビュー機能搭載
 - [ORCH](https://github.com/oxgeneral/ORCH) - Claude Code、Codex、Cursor エージェントチームのためのCLIオーケストレーター。ステートマシン、自動リトライ、エージェント間メッセージング、TUIダッシュボード。TypeScript、MIT。
+
 ## コード生成 & 自動化
 
 コード生成、開発タスクの自動化、プロジェクトテンプレート作成のためのツール。
@@ -238,6 +243,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Vibe Coding a Full-Stack Budget App](https://github.com/wasp-lang/vibe-coding-video) - Vibe Codingフルスタックアプリスターターテンプレート
 - [Shadow Code](https://github.com/adifyr/shadow-code) - 人間が書いた擬似コードをターゲット言語のクリーンで正確な本番対応コードに変換するAIコーディング技術（少なくとも、それがシステムプロンプトでAIに指示した内容）
 - [InsForge](https://github.com/InsForge/InsForge) - AIコーディングエージェントとAIコードエディタ向けに構築されたバックエンド開発プラットフォーム
+- [Forge](https://github.com/sudo-rebase/forge) - AIパワードフルスタックアプリ作成ツール。自然言語からプロダクション対応のNext.jsアプリを生成。BYOK — Anthropic、OpenAI、Google AIの自前キーをマークアップなしで使用可能
 
 ## テスト & セキュリティ
 
@@ -259,6 +265,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Zenable](https://zenable.io/) — チームの基準を学習し、コーディングエージェントがそれに従うことを保証するAIガードレール。速度と品質を最大化。無料枠あり
 - [VulnViper](https://github.com/anshulyadav1976/VulnViper) - Pythonコードベース内の潜在的脆弱性の特定と理解を支援するインテリジェントセキュリティ監査ツール
 - [codegate](https://github.com/stacklok/codegate) - AIコーディングアシスタントを安全にするローカルゲートウェイ
+- [AgentLint](https://github.com/0xmariowu/AgentLint) - AIフレンドリーなリポジトリのための33のエビデンスベースチェック — ファイル構造、指示品質、ビルド設定、セッション継続性、セキュリティ態勢。Claude Codeプラグインで自動修正対応
 - [vibelint](https://github.com/mithranm/vibelint) - コードベースをLLMフレンドリーにする
 - [Vibe Security](https://github.com/astoj/vibe-security) - Vibeコーダー向け包括的セキュリティチェックリスト
 - [Strix](https://github.com/usestrix/strix) - 「AIハッカー」として機能するオープンソースのセキュリティエージェント。開発ワークフローに統合し、アプリケーションの脆弱性を能動的にテスト・発見する。ローカルで実行し、継続的なセキュリティテストを自動化できる
@@ -542,6 +549,7 @@ AI駆動開発ワークフロー向けの合成データセット生成ツール
 
 AI駆動開発を学ぶためのチュートリアル、ベストプラクティス、リソース。
 
+- [Encyclopedia of Agentic Coding Patterns](https://aipatternbook.com) — AI支援ソフトウェア開発の190以上のパターンを網羅するオンラインリファレンス。AIエージェントがメンテナンスし、Wolf McNallyがキュレーション
 - [CodeAssist - AI Programming Assistant](https://github.com/gensyn-ai/codeassist) - Gensyn開発の完全プライベート・ローカルAIコーディングアシスタント。プログラミング問題の練習やコーディング支援アシスタントのトレーニングに活用可能
 - [The BMAD-Method 3.1](https://github.com/bmadcode/BMAD-METHOD) - アジャイルAI駆動開発のブレークスルー手法
 - [Guide to AI-Assisted Development Using kliewerdaniel/workflow](https://github.com/kliewerdaniel/workflow) - 構造化AI支援開発ワークフローガイド
@@ -650,3 +658,4 @@ AIコーディングエージェントに専門的な機能を付与するため
 - [setup-structure-index](https://github.com/shannonbay/setup-structure-index) - 任意のプロジェクト用に2段階のコードベース構造インデックスをセットアップするClaude Codeスキル
 - [pm-skills](https://github.com/product-on-purpose/pm-skills) - agentskills.io仕様に準拠した、24のプラグアンドプレイ型プロダクトマネジメントエージェントスキル（テンプレートとワークフローバンドル付き）
 - [Mysti](https://github.com/DeepMyst/Mysti) - VS Code向けマルチエージェントAIコーディングアシスタント（ブレインストームモード搭載）| Claude Code、Codex、Gemini、Cline、GitHub Copilot |
+- [naming](https://github.com/glacierphonk/naming) - プロダクト、SaaS、ブランド、オープンソースプロジェクトのためのメタファー駆動型ネーミングスキル。記憶に残る意味のある名前を生成する構造化プロセス
