@@ -163,6 +163,7 @@ Plugins and extensions for popular IDEs and text editors.
 - [Co-Clone](https://github.com/Sarvesh-Kannan/Co-Clone) - a local AI coding assistant that mimics the functionality of GitHub Copilot. It provides intelligent code completions and context-aware implementations using a local LLM (deepseek-coder:6.7b) running via Ollama.
 - [eca](https://github.com/editor-code-assistant/eca) - AI pair programming capabilities agnostic of editor
 
+- [ORCH](https://github.com/oxgeneral/ORCH) — CLI orchestrator for Claude Code, Codex, Cursor agent teams. State machine, auto-retry, inter-agent messaging, TUI dashboard. TypeScript, MIT.
 ## Multi-Agent & Orchestration
 
 Frameworks and tools for orchestrating and managing multiple AI agents in development workflows.
@@ -215,6 +216,7 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 - [Parallel Code](https://github.com/johannesjo/parallel-code) - Desktop app for running multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees.
 - [cestDone](https://github.com/olkano/cestDone) - CLI orchestrator that splits AI coding into Director (planning/specs) and Coder (implementation) roles, with built-in scheduler for automated execution.
 
+- [ORCH](https://github.com/oxgeneral/ORCH) - CLI orchestrator for Claude Code, Codex, Cursor agent teams. State machine, auto-retry, inter-agent messaging, TUI dashboard. TypeScript, MIT.
 ## Code Generation & Automation
 
 Tools for generating code, automating development tasks, and creating project templates.
