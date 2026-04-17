@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **537 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
+A curated list of awesome AI-Driven development tools, frameworks, and resources. Currently featuring **540 tools** to enhance your AI-powered development workflow. Inspired by [AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/).
 
 ## Contents
 
@@ -49,6 +49,8 @@ Full-featured AI-powered code editors and integrated development environments.
 - [SquirlIDE](https://github.com/krishnak19a-del/SquirlIDE) - A lightweight, cross-platform code editor built using Tauri (Rust) for the backend and ReactJS for the frontend, with integration for large language model (LLM) calls using Gemini API for code assistance and text generation.
 - [Frontman](https://github.com/frontman-ai/frontman) - Open-source AI coding agent that lives in your browser. Hooks into your dev server as middleware, sees live DOM, component tree, CSS, routes, and server logs. Click any element, describe changes, get real source code edits with hot reload.
 - [Nimbalyst](https://nimbalyst.com) - Visual workspace for building with Codex and Claude Code. Session and task management. Visual editing of markdown, mockups, csv, excalidraw, mermaid, code.  
+- [Devin](https://devin.ai/) - An AI coding agent and software engineer that helps developers build better software faster. Parallel cloud agents for serious engineering teams.
+- [Windsurf Editor](https://windsurf.com/editor) - The first agentic IDE, and then some. The Windsurf Editor is where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic.
 
 ## Terminal & CLI Agents
 
@@ -219,6 +221,7 @@ Frameworks and tools for orchestrating and managing multiple AI agents in develo
 - [Forge](https://github.com/LucasDuys/forge) - Autonomous spec-driven development loop for Claude Code. Three-command pipeline (brainstorm, plan, execute) with context survival, backpropagation, and Claude-on-Claude code review.
 - [ORCH](https://github.com/oxgeneral/ORCH) - CLI orchestrator for Claude Code, Codex, Cursor agent teams. State machine, auto-retry, inter-agent messaging, TUI dashboard. TypeScript, MIT.
 - [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
+- [evo](https://github.com/evo-hq/evo) - A plugin for Claude Code and Codex that turns your codebase into an autoresearch loop — discovers what to measure, instruments the benchmark, then runs tree search with parallel subagents.
 
 ## Code Generation & Automation
 
