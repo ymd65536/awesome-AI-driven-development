@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **540個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
+AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **542個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
 
 ## 目次
 
@@ -282,6 +282,7 @@ AI駆動開発のためのツール、フレームワーク、リソースの厳
 - [Vet : Verify Everything](https://github.com/imbue-ai/vet) - コード変更とコーディングエージェントの動作を検証するスタンドアロン検証ツール
 - [Hawkeye](https://github.com/MLaminekane/hawkeye) - AIエージェントのフライトレコーダー - Claude Code、Aider、AutoGPTなどの可観測性とセキュリティ
 - [aiignore-cli](https://github.com/yjcho9317/aiignore-cli) - 7つのAIコーディングツールのignore設定を自動生成・検証するCLI。ツールごとのバイパステスト結果に基づく
+- [Clearwing](https://github.com/Lazarus-AI/clearwing) - 自律型脆弱性スキャナー＆ソースコードハンター。`genai-pyo3`（ネイティブRustバックエンドLLMランタイム）上に構築され、Anthropic、OpenAI、OpenRouter、Ollama、LM Studio、Together、Groq、DeepSeek、MiniMax、Gemini、OpenAI互換エンドポイントなど主要プロバイダーに対応
 
 ## MCPサーバー & 統合
 
@@ -643,6 +644,7 @@ AIコーディングアシスタントを構築・強化するためのフレー
 - [Claude Bootstrap](https://github.com/alinaqi/claude-bootstrap) - Claude Code向けの確実なプロジェクト初期化システム。デフォルトでエージェントチーム、厳密なTDDパイプライン、マルチエンジンコードレビュー、セキュリティファースト
 - [Indie Kit - The AI-Native Next.js Starter Kit](https://github.com/Indie-Kit/nextjs-saas-starter) - Indie Kit Proのオープンソース/ライト版。本番グレードの技術スタックと「AI Context Rules」を組み合わせ、LLM（Cursor、Windsurf、Copilot）がコードベースを理解し、バグなくコードを記述し、プロジェクトを自律的に操作できるようにする
 - [rtk - Rust Token Killer](https://github.com/rtk-ai/rtk) - 一般的な開発コマンドでのLLMトークン消費を60〜90%削減するCLIプロキシ。単一のRustバイナリで依存関係ゼロ
+- [OpenMythos](https://github.com/kyegomez/OpenMythos) - Claude Mythosアーキテクチャの理論的再構築。利用可能な研究文献を基に第一原理から構築
 
 ## スキル
 
