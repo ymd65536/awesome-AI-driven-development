@@ -648,6 +648,8 @@ Frameworks, libraries, and configurations for building and enhancing AI coding a
 - [OpenMythos](https://github.com/kyegomez/OpenMythos) - A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.
 - [vibecodex](https://github.com/yerdaulet-damir/vibecodex) - Production architecture bible for AI-driven development: 54 principles for FastAPI, Next.js 15 & Go 1.22+, with CLAUDE.md, Claude Code skills, and cursor rules.
 
+- [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates production-ready visual assets (app icons, favicons, OG images, logos, wordmarks) by routing requests across 30+ image generation models. Zero API key required on first run via Pollinations and Stable Horde free tiers.
+
 ## Skills
 
 Reusable skill packages, collections, and tools for enhancing AI coding agents with specialized capabilities.
@@ -673,3 +675,5 @@ Reusable skill packages, collections, and tools for enhancing AI coding agents w
 - [pm-skills](https://github.com/product-on-purpose/pm-skills) - 24 plug-and-play product management agent skills with templates and workflow bundles, following the agentskills.io specification.
 - [Mysti](https://github.com/DeepMyst/Mysti) - Multi-agent AI coding assistant for VS Code with brainstorm mode | Claude Code, Codex, Gemini, Cline, GitHub Copilot |
 - [naming](https://github.com/glacierphonk/naming) - Metaphor-driven naming skill for products, SaaS, brands, and open source projects. Structured process that produces memorable, meaningful names.
+- [unslop](https://github.com/MohamedAbdallah-14/unslop) - CLI and MCP server that removes AI writing patterns from agent-generated text: tricolons, em-dash overuse, hedging stacks, sycophancy openers, and overused vocabulary. Works with Claude Code, Codex, Gemini CLI, and Cursor.
+
