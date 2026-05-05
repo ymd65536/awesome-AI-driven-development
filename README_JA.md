@@ -3,7 +3,7 @@
 
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" height="18"></a>
 
-AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **543個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
+AI駆動開発のためのツール、フレームワーク、リソースの厳選されたリスト。現在 **550個のツール** を掲載し、AIによる開発ワークフローを強化します。[AI駆動開発(AI-Driven Development)](https://www.ai-driven.dev/)からインスピレーションを得ています.
 
 ## 目次
 
@@ -301,6 +301,7 @@ AI機能強化のためのModel Context Protocolサーバーと統合。
 - [Browser Control MCP](https://github.com/eyalzh/browser-control-mcp) - ブラウザ拡張機能と連携してAIエージェントがユーザーのブラウザを制御できるMCPサーバー
 - [LINE Bot MCP Server](https://github.com/line/line-bot-mcp-server) - LINE Messaging APIを統合してAIエージェントをLINE公式アカウントに接続するMCPサーバー
 - [Kubernetes MCP Server](https://github.com/containers/kubernetes-mcp-server) - KubernetesとOpenShift用Model Context Protocol（MCP）サーバー
+- [KubeStellar Console kc-agent](https://github.com/kubestellar/console) - KubeStellar Consoleにバンドルされた、AI駆動のマルチクラスターKubernetes操作向けMCPサーバー（kc-agent）。Claude/Copilot/Cursor経由で自然言語チャット、GitOpsデプロイミッション、リアルタイムクラスターダッシュボードを提供
 - [Computer Control MCP](https://github.com/AB498/computer-control-mcp) - PyAutoGUI、RapidOCR、ONNXRuntimeを使用してマウス、キーボード、OCRなどのコンピューター制御機能を提供するMCPサーバー。AnthropicのComputer-useと類似、外部依存関係ゼロ
 - [Gemini MCP Server for Claude Code](https://github.com/BeehiveInnovations/gemini-mcp-server) - GeminiとClaude Codeの連携。ClaudeのExtended ThinkingにGeminiの視点で補強
 - [GitHub Chat MCP](https://github.com/AsyncFuncAI/github-chat-mcp) - GitHub Chat APIを使用してGitHubリポジトリを分析・クエリするModel Context Protocol（MCP）
@@ -350,6 +351,7 @@ AI機能強化のためのModel Context Protocolサーバーと統合。
 - [CogniLayer v4](https://github.com/LakyFx/CogniLayer) - Claude CodeとCodex CLI向けの超高速メモリ＋コードグラフ。17のMCPツール、サブエージェントプロトコル、ハイブリッド検索、TUIダッシュボード、クラッシュリカバリ。セッションあたり80〜200K以上のトークンを節約
 - [SymDex](https://github.com/husnainpk/SymDex) - AIエージェント向けコードインデクサーMCPサーバー — ルックアップあたり97%のトークン削減。13言語対応、セマンティック検索、コールグラフ、クロスリポジトリ検索をサポート
 - [DebugMCP (MCP Server)](https://github.com/microsoft/DebugMCP) - VS Codeエージェントに本格的なデバッガーを提供：ブレークポイント、ステッピング、インスペクション
+- [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - 30以上の画像生成モデル間でリクエストをルーティングし、本番環境向けビジュアルアセット（アプリアイコン、ファビコン、OG画像、ロゴ、ワードマーク）を生成するMCPサーバー。PollinationsとStable Hordeの無料枠を利用して初回実行時にAPIキーが不要
 
 ## コードレビュー & コラボレーション
 
@@ -413,6 +415,9 @@ AI駆動開発におけるプロジェクト管理、ドキュメント、ナレ
 - [Nemp Memory](https://github.com/SukinShetty/Nemp-memory) - Claude Code向け100%ローカルメモリ • プライバシー第一 • ゼロセットアップ
 - [🏗️ Vibe Architect](https://github.com/mohdhd/vibe-architect) - AI搭載プロジェクト仕様生成ツール。アイデアから実装可能な仕様を数分で作成。マルチモデル対応（GPT-5.2、Gemini 3、Claude）、ライブデザインプレビュー、音声入力、Markdownエクスポート
 - [MemoryAgent](https://github.com/IIIIQIIII/MemoryAgent) - データベースなしでコーディングエージェントが自身のメモリを管理できるようにするツール
+- [AI Context Templates](https://github.com/MrDwarf7/ai-context-templates) - 一般的なプロジェクトタイプ向けの無料のCLAUDE.md、Cursorルール、PRPテンプレート集。すぐに使える5つのパックでAIコーディングアシスタントを実用化
+- [AI Context Linter](https://github.com/MrDwarf7/ai-context-linter) - AIコーディングコンテキストファイル（CLAUDE.md、.cursorrules、AGENTS.md）のセキュリティ問題、構造的問題、AIアンチパターンを検出するGitHub Action
+- [url-to-md](https://github.com/MrDwarf7/url-to-md) - 任意のURLをLLM向けのクリーンなMarkdownに変換。無料API、サインアップ不要
 
 ## 言語モデル & エンジン
 
@@ -646,6 +651,7 @@ AIコーディングアシスタントを構築・強化するためのフレー
 - [Indie Kit - The AI-Native Next.js Starter Kit](https://github.com/Indie-Kit/nextjs-saas-starter) - Indie Kit Proのオープンソース/ライト版。本番グレードの技術スタックと「AI Context Rules」を組み合わせ、LLM（Cursor、Windsurf、Copilot）がコードベースを理解し、バグなくコードを記述し、プロジェクトを自律的に操作できるようにする
 - [rtk - Rust Token Killer](https://github.com/rtk-ai/rtk) - 一般的な開発コマンドでのLLMトークン消費を60〜90%削減するCLIプロキシ。単一のRustバイナリで依存関係ゼロ
 - [OpenMythos](https://github.com/kyegomez/OpenMythos) - Claude Mythosアーキテクチャの理論的再構築。利用可能な研究文献を基に第一原理から構築
+- [vibecodex](https://github.com/yerdaulet-damir/vibecodex) - AI駆動開発のための本番アーキテクチャバイブル。FastAPI、Next.js 15、Go 1.22+向けの54の原則をCLAUDE.md、Claude Codeスキル、cursorルールとともに提供
 
 ## スキル
 
@@ -672,3 +678,4 @@ AIコーディングエージェントに専門的な機能を付与するため
 - [pm-skills](https://github.com/product-on-purpose/pm-skills) - agentskills.io仕様に準拠した、24のプラグアンドプレイ型プロダクトマネジメントエージェントスキル（テンプレートとワークフローバンドル付き）
 - [Mysti](https://github.com/DeepMyst/Mysti) - VS Code向けマルチエージェントAIコーディングアシスタント（ブレインストームモード搭載）| Claude Code、Codex、Gemini、Cline、GitHub Copilot |
 - [naming](https://github.com/glacierphonk/naming) - プロダクト、SaaS、ブランド、オープンソースプロジェクトのためのメタファー駆動型ネーミングスキル。記憶に残る意味のある名前を生成する構造化プロセス
+- [unslop](https://github.com/MohamedAbdallah-14/unslop) - エージェント生成テキストからAIライティングパターン（三段論法、emダッシュの多用、ヘッジング、ご機嫌取りの書き出し、過剰使用語彙）を除去するCLIおよびMCPサーバー。Claude Code、Codex、Gemini CLI、Cursorに対応
