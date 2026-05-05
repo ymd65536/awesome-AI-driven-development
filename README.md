@@ -300,6 +300,7 @@ Model Context Protocol servers and integrations for enhanced AI capabilities.
 - [Browser Control MCP](https://github.com/eyalzh/browser-control-mcp) - MCP server paired with a browser extension that enables AI agents to control the user's browser.
 - [LINE Bot MCP Server](https://github.com/line/line-bot-mcp-server) - MCP server that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.
 - [Kubernetes MCP Server](https://github.com/containers/kubernetes-mcp-server) - Model Context Protocol (MCP) server for Kubernetes and OpenShift
+- [KubeStellar Console kc-agent](https://github.com/kubestellar/console) - MCP server (kc-agent) bundled with KubeStellar Console for AI-driven multi-cluster Kubernetes operations — natural-language chat, GitOps deploy missions, and real-time cluster dashboard via Claude/Copilot/Cursor
 - [Computer Control MCP](https://github.com/AB498/computer-control-mcp) - MCP server that provides computer control capabilities, like mouse, keyboard, OCR, etc. using PyAutoGUI, RapidOCR, ONNXRuntime. Similar to 'computer-use' by Anthropic. With Zero External Dependencies.
 - [Ref MCP](https://github.com/ref-tools/ref-tools-mcp) - An MCP server to stop hallucinations with token efficient search over public and private documentation.
 - [DockaShell](https://github.com/anzax/dockashell) - DockaShell is an MCP server that gives AI agents isolated Docker containers to work in. MCP tools for shell access, file operations, and full audit trail.
